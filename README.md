@@ -26,10 +26,8 @@ That's it. Skills load themselves when they're relevant, or you can invoke one d
 | [`bookmark-triage`](./skills/bookmark-triage/SKILL.md) | Turn saved X/Twitter bookmarks into Linear tickets automatically — a daily agent loop that reads new bookmarks via the shiori.sh CLI, classifies each against your idea taxonomy, auto-files tickets for the actionable ones, skips noise, and tags processed links so nothing is double-processed. |
 | [`deploy`](./skills/deploy/SKILL.md) | Verify and ship a web app to Vercel - typecheck, build, env check, then deploy and report the URL. |
 | [`design`](./skills/design/SKILL.md) | The meirlabs design rules for a product's visual layer — brand tokens, fixed structure, and the rules everything defers to. |
-| [`gtm`](./skills/gtm/SKILL.md) | How a one-person studio takes an idea to market — positioning, channels, and operating cadence. |
 | [`loop-engineering`](./skills/loop-engineering/SKILL.md) | Orchestrate a goal end-to-end with fan-out haiku/sonnet/opus subagents, plan first. |
 | [`loops`](./skills/loops/SKILL.md) | Design, pilot, and run scheduled watcher-scribe agent loops that escalate to a human, never act. |
-| [`new-project`](./skills/new-project/SKILL.md) | Bootstraps a new project from the meirlabs homebase, from discovery and an approved plan through a shipped scaffold. |
 | [`organize-idea`](./skills/organize-idea/SKILL.md) | Set up or reorganize a SaaS project into the standard ~/Ideas/ folder structure. |
 | [`principles`](./skills/principles/SKILL.md) | The values and 5-Step Process that guide the work. |
 | [`review-animations`](./skills/review-animations/SKILL.md) | Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy, calibrated to the meirlabs design system. |
