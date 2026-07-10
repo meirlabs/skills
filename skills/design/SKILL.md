@@ -124,6 +124,7 @@ Never reimplement these from the prose; the prose is the contract, the source is
 - **Two body sizes only: 14px and 16px.** No 15px in body copy — the label register's 15px/13px are label sizes, not body sizes (→ see The label register).
 - **No display sizes in-app.** Page titles cap around 28px; hero type belongs on the landing page.
 - Font family is `--brand-font-sans` / `--brand-font-mono`, set once globally — never `font-family` on a component.
+- **Loading the brand sans** (meirlabs apps use Geist; wired 2026-07-10): install the `geist` npm package, add `GeistSans.variable` to the `<html>` className via next/font, and let the sans token pick it up through `var(--font-geist-sans, …)`. Geist has no Hebrew or Cyrillic glyphs — he/ru text intentionally falls back to the system stack. New projects get this from the starter.
 - One global letter-spacing (`--brand-tracking`) on the body; don't re-tune tracking per element.
 - **No 700 weight.** `font-weight: 700` never ships — medium (500) and semibold (600) carry every emphasis this system needs. Weight is a hierarchy tool, not a shout. The font loads at 400/500/600 only (→ see Start here), so 700 can't sneak in.
 - Set `text-wrap: balance` on `h1`–`h3` and `text-wrap: pretty` on body copy, once, globally — no orphan words on two-line headings.
