@@ -35,3 +35,7 @@ wires it:
 - Create the ticket via the tracker's API, set the target project/team, add a category
   label, and set a priority so the backlog stays ranked.
 - Dedupe before creating: skip if an open ticket already references the same source URL.
+
+## Ticket reopening — all projects
+
+Whenever reopening a ticket in any project or team, including failed QA that returns it for further work, automatically clear its actual parent relationship without asking. Keep it parentless unless the user explicitly requests a parent; a plain reference link may remain for history. Preserve other fields except changes required by reopening. Read back and verify the reopened status and no parent; report any failure instead of claiming completion. Adding a comment to a ticket that is still open is not a reopening and must not detach it.
